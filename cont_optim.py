@@ -13,8 +13,12 @@ MUT_PROB = 0.2 # mutation probability
 MUT_STEP = 0.5 # size of the mutation steps
 REPEATS = 10 # number of runs of algorithm (should be at least 10)
 OUT_DIR = 'continuous' # output directory for logs
-EXP_ID = 'default' # the ID of this experiment (used to create log names)
-
+EXP_ID = 'default'
+# EXP_ID = 'adaptive' # the ID of this experiment (used to create log names)
+# EXP_ID = 'diff'
+# EXP_ID = 'diff_ada'
+# EXP_ID = 'larmack'
+# EXP_ID = 'baldwin'
 
 # creates the individual
 def create_ind(ind_len):

@@ -139,6 +139,7 @@ def crossover(pop, cross, cx_prob):
 def mutation(pop, mutate, mut_prob):
     return [mutate(p) if random.random() < mut_prob else p[:] for p in pop]
 
+def mute
 # implements the evolutionary algorithm
 # arguments:
 #   pop_size  - the initial population

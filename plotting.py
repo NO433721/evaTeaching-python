@@ -6,6 +6,6 @@ import utils
 import matplotlib.pyplot as plt 
 
 plt.figure(figsize=(12,8))
-utils.plot_experiments('rules', ['default'])
+utils.plot_experiments('continous', ['default.f01'])
+plt.savefig('continous')
 plt.show()
- 
